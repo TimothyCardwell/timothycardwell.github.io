@@ -58,7 +58,8 @@
 
     
 <!-- Welcome Slider-->
-<section class="hero-area" style='background-image: url("images/header-bg.jpg");'>
+<section class="hero-area"
+    style='background-image: url("images/tim.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat;'>
     <div class="block">
         
          <h1>Tim Cardwell</h1>
@@ -315,7 +316,8 @@
             <!-- /section title -->
 
             <!-- Contact Details -->
-            <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+            <div class="contact-info col-lg-12 wow fadeInUp" data-wow-duration="500ms"
+                style='display: flex; flex-direction: column; align-items: center;'>
                 <h3>Contact Details</h3> 
                 
                 <div class="contact-details">
@@ -339,35 +341,9 @@
             </div>
 
             <!-- Contact Form -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
-
-                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message"
-                            id="message"></textarea>
-                    </div>
-                    <div id="mail-success" class="success">
-                        Thank you for reaching out, I'll be in contact soon!
-                    </div>
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-                </form>
-            </div>
+            
         </div>
+    </div>
     </div>
 
     
@@ -393,6 +369,8 @@
 					<ul class="list-inline">
 						
 						<li class="list-inline-item"><a href="https://www.linkedin.com/in/tim-cardwell/"><i class="tf-ion-social-linkedin"></i></a></li>
+						
+						<li class="list-inline-item"><a href="https://github.com/TimothyCardwell"><i class="tf-ion-social-github"></i></a></li>
 						
 					</ul>
 				</div>
